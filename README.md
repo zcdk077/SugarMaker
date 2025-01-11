@@ -54,7 +54,7 @@ yes | apt-get update && apt-get upgrade -y
 ## [ Install libs ]
 
 ```
-yes | apt-get install clang git build-essential libcurl4-openssl-dev autotools-dev automake libtool nano
+apt-get install clang git build-essential libcurl4-openssl-dev autotools-dev automake libtool nano
 ```
 
 ## [ Clone & Install SugarMaker ]
