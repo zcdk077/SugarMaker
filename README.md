@@ -24,6 +24,7 @@ yes | pkg install wget curl proot tar nano
 ## [ Autorun Ubuntu ]
 
 ```
+cd ..
 nano ../usr/etc/bash.bashrc
 ```
 
@@ -31,6 +32,7 @@ nano ../usr/etc/bash.bashrc
 
 ```
 termux-wake-lock
+clear
 cd ubuntu/&&./start-ubuntu20.sh
 ```
 
@@ -38,8 +40,7 @@ cd ubuntu/&&./start-ubuntu20.sh
 
 ```
 mkdir ubuntu && cd ubuntu
-wget https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Installer/Ubuntu20/ubuntu20.sh -O ubuntu20.sh && chmod +x ubuntu20.sh && bash ubuntu20.sh
-./start-ubuntu20.sh
+wget https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Installer/Ubuntu20/ubuntu20.sh -O ubuntu20.sh && chmod +x ubuntu20.sh && bash ubuntu20.sh && ./start-ubuntu20.sh
 ```
 
 B. TUTORIAL UBUNTU
@@ -54,18 +55,6 @@ yes | apt-get update && apt-get upgrade -y
 
 ```
 yes | apt-get install clang git build-essential libcurl4-openssl-dev autotools-dev automake libtool nano
-```
-
-## [ Autorun Mining ]
-
-```
-nano ~/bashrc
-```
-
-## [ Copy dan paste dibaris paling bawah ]
-
-```
-cd sugarmaker/&&./start.sh
 ```
 
 ## [ Clone & Install SugarMaker ]
@@ -93,6 +82,18 @@ nano start.sh
 ## [ Start SugarMaker ]
 ```
 ./start.sh
+```
+
+## [ Autorun Mining ]
+
+```
+nano ~/bashrc
+```
+
+## [ Copy dan paste dibaris paling bawah ]
+
+```
+cd sugarmaker/&&./start.sh
 ```
 
 Jika tidak mengerti tentang autorun bisa melewati langkah ## [ Autorun Ubuntu ] dan [ Autorun Mining ]
