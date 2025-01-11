@@ -68,7 +68,7 @@ cd sugarmaker
 ./autogen.sh
 ```
 ```
-./configure CFLAGS="-Wall -O2 -formit-frame-pointer" CXXFLAGS="$CFLAGS -std=gnu++11"
+./configure CFLAGS="-Wall -O2 -fomit-frame-pointer" CXXFLAGS="$CFLAGS -std=gnu++11"
 ```
 ```
 make
