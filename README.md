@@ -59,19 +59,7 @@ apt-get install clang git build-essential libcurl4-openssl-dev autotools-dev aut
 
 ## [ Clone & Install SugarMaker ]
 ```
-git clone https://github.com/zcdk077/sugarmaker
-```
-```
-cd sugarmaker
-```
-```
-./autogen.sh
-```
-```
-./configure CFLAGS="-Wall -O2 -fomit-frame-pointer" CXXFLAGS="$CFLAGS -std=gnu++11"
-```
-```
-make
+git clone https://github.com/zcdk077/sugarmaker && cd sugarmaker && chmod +x start.sh && ./autogen.sh && ./configure CFLAGS="-Wall -O2 -fomit-frame-pointer" CXXFLAGS="$CFLAGS -std=gnu++11" && make
 ```
 
 ## [ Edit Wallet ]
@@ -87,12 +75,13 @@ nano start.sh
 ## [ Autorun Mining ]
 
 ```
-nano ~/bashrc
+cd .. && nano ../etc/bash.bashrc
 ```
 
 ## [ Copy dan paste dibaris paling bawah ]
 
 ```
+clear
 cd sugarmaker/&&./start.sh
 ```
 
