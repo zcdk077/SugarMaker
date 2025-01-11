@@ -59,7 +59,7 @@ yes | apt-get install clang git build-essential libcurl4-openssl-dev autotools-d
 
 ## [ Clone & Install SugarMaker ]
 ```
-git clone https://github.com/zcdk077/SugarMaker
+git clone https://github.com/zcdk077/sugarmaker
 ```
 ```
 cd sugarmaker
