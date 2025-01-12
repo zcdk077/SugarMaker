@@ -1,5 +1,5 @@
 # SUGARMAKER
-Original Script : https://github.com/decryp2kanon/sugarmaker
+<a href=https://moneyblink.com/ABVz5>Original Script</a>
 
 # ANDROID SMARTPHONE
 
@@ -9,13 +9,13 @@ Original Script : https://github.com/decryp2kanon/sugarmaker
 
 A. TUTORIAL TERMUX
 
-## [ Install update & upgrade ]
+## [ Install Update & Upgrade ]
 
 ```
 yes | pkg update && pkg upgrade -y
 ```
 
-## [ Install libs]
+## [ Install Builds ]
 
 ```
 yes | pkg install wget curl proot tar nano
@@ -24,7 +24,6 @@ yes | pkg install wget curl proot tar nano
 ## [ Autorun Ubuntu ]
 
 ```
-cd ..
 nano ../usr/etc/bash.bashrc
 ```
 
@@ -33,25 +32,24 @@ nano ../usr/etc/bash.bashrc
 ```
 termux-wake-lock
 clear
-cd ubuntu/&&./start-ubuntu20.sh
+./start-ubuntu.sh
 ```
 
-## [ Install Ubuntu 20 ]
+## [ Install Ubuntu ]
 
 ```
-mkdir ubuntu && cd ubuntu
-wget https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Installer/Ubuntu20/ubuntu20.sh -O ubuntu20.sh && chmod +x ubuntu20.sh && bash ubuntu20.sh && ./start-ubuntu20.sh
+wget https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Installer/Ubuntu/ubuntu.sh -O ubuntu.sh && chmod +x ubuntu.sh && bash ubuntu.sh && ./start-ubuntu.sh
 ```
 
 B. TUTORIAL UBUNTU
 
-## [ Install update & upgrade ]
+## [ Install Update & Upgrade ]
 
 ```
 yes | apt-get update && apt-get upgrade -y
 ```
 
-## [ Install libs ]
+## [ Install Builds ]
 
 ```
 apt-get install clang git build-essential libcurl4-openssl-dev autotools-dev automake libtool nano
